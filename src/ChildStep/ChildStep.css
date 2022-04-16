@@ -1,0 +1,24 @@
+.box {
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  border-radius: 2px;
+}
+
+.loader {
+  font-size: 30;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 72px auto;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: loadingFrame 1.7s infinite ease, round 1.7s infinite ease;
+  animation: loadingFrame 1.7s infinite ease, round 1.7s infinite ease;
+}
